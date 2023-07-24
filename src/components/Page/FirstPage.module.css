@@ -6,10 +6,11 @@
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
+    color: rgb(192, 233, 237);
     box-sizing: border-box;
     text-align: center;
-    background: linear-gradient(pink, rgb(240, 119, 119), red, rgb(246, 152, 152),red,rgb(246, 152, 152), red, rgb(246, 152, 152),red,rgb(246, 152, 152), pink);
-    color:rgb(249, 245, 245);
+    background: linear-gradient(red, white, red, red, red, red, red, red, red, red, red, white, red);
+
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
   
@@ -17,7 +18,7 @@
     width: 150px;
     margin-bottom: 20px;
     border-radius: 20px;
-    box-shadow: #010300 0px 0px 10px 5px;
+    box-shadow: #4f1111 0px 0px 15px 4px;
   }
   
   .heading {
@@ -30,12 +31,12 @@
     padding: 12px 15px;
     font-size: 14px;
     font-weight: bold;
-    background: linear-gradient( #ffffff, #f87c7c);
-    color: #000000;
+    background: linear-gradient( #ff0000, #f45d5d);
+    color: #ffffff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: #000000 0px 0px 9px 0.5px;
+    box-shadow: #685f5f 0px 0px 2px 0.5px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
   
