@@ -1,5 +1,3 @@
-/* SecondPage.module.css */
-
 .secondpage {
     display: flex;
     flex-direction: column;
@@ -18,12 +16,12 @@
     font-size: 18px;
     cursor: pointer;
     background-color: #007bff;
-    color: #fff;
+    color: #000000;
     border: none;
     border-radius: 5px;
   }
   
   .continuebutton:hover {
-    background-color: #0056b3;
+    background-color: #eeeeef;
   }
   
