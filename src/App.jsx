@@ -1,12 +1,17 @@
-import { FirstPage } from './components/Page/FirstPage';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import FirstPage from './components/Page/FirstPage';
+import SecondPage from './components/Page/SecondPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <FirstPage />
-    </div>
+      <div>
+        <Routes>
+          <Route path="/" element={<FirstPage />} />
+          <Route path="about" element={<SecondPage />} />
+        </Routes>
+      </div>
   );
-}
+};
 
 export default App;
