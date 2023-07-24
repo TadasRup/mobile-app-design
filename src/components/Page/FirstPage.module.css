@@ -6,11 +6,10 @@
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-    color: rgb(192, 233, 237);
+    color: #90c402;
     box-sizing: border-box;
     text-align: center;
-    background: linear-gradient(red, white, red, red, red, red, red, red, red, red, red, white, red);
-
+    background: linear-gradient(black,black, black);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
   
@@ -18,7 +17,7 @@
     width: 150px;
     margin-bottom: 20px;
     border-radius: 20px;
-    box-shadow: #4f1111 0px 0px 15px 4px;
+    box-shadow: #90c402 0px 0px 4px 3px;
   }
   
   .heading {
@@ -31,12 +30,13 @@
     padding: 12px 15px;
     font-size: 14px;
     font-weight: bold;
-    background: linear-gradient( #ff0000, #f45d5d);
-    color: #ffffff;
+    background:linear-gradient( #90c402,#000000,#90c402);
+    color: white;
     border: none;
     border-radius: 8px;
+    margin-top:10px;
     cursor: pointer;
-    box-shadow: #685f5f 0px 0px 2px 0.5px;
+    box-shadow: #ffffff 0px 0px 0.2px 1px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
   
