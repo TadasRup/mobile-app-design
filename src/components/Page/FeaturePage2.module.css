@@ -1,26 +1,37 @@
 /* FeaturePage1.module.css */
 .featurepage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-  
-  .content {
-    margin-bottom: 20px;
-  }
-  
-  .continuebutton {
-    display: block;
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .continuebutton:hover {
-    background-color: #0056b3;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: #ffffff;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(white,  rgb(115, 43, 177),rgb(204, 125, 238),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182), rgb(204, 125, 238), rgb(124, 36, 182), white);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.continuebutton {
+  padding: 12px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  background:linear-gradient( #9e76ef,#c5aef3,#9f7aeb);
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  margin-top:10px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: #ffffff 0px 0px 0.2px 0.9px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.continuebutton:hover {
+  background-color: #0056b3;
+}
