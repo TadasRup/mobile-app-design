@@ -17,6 +17,12 @@
   margin-bottom: 20px;
 }
 
+.logo {
+  width: 150px;
+  border-radius: 20px;
+  box-shadow: #ffffff 0px 0px 2px 3px;
+}
+
 .continuebutton {
   padding: 12px 15px;
   font-size: 14px;

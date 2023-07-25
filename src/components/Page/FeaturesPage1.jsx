@@ -8,10 +8,10 @@ import FeatureBubbles from './FeaturesBubble';
 const FeaturePage1 = () => {
   return (
     <div className={style2.featurepage}>
-      <img src={Feature1logo} alt="Logo" className={style2.content} />
+      <img src={Feature1logo} alt="Logo" className={style2.logo} />
       <FeatureBubbles />
-      <h1 className={style2.content}>Feature 1</h1>
-      <p className={style2.content}>This is the first feature content.</p>
+      <h1 className={style2.content}>WORLDWIDE APP</h1>
+      <p className={style2.content}>Meet more than 500k registered users!</p>
       <Link className={style2.continuebutton} to="/FeaturePage2">Continue</Link>
     </div>
   );
