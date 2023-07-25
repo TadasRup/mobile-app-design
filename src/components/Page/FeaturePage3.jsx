@@ -5,6 +5,7 @@ import style4 from './FeaturePage3.module.css'
 import FeatureBubbles from './FeaturesBubble';
 import BigNames from '../../img/bignames.png'
 
+
 const FeaturePage3 = () => {
   return (
     <div className={style4.featurepage}>

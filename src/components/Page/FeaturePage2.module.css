@@ -9,7 +9,7 @@
   color: #ffffff;
   box-sizing: border-box;
   text-align: center;
-  background: linear-gradient(rgb(237, 59, 59),  rgb(115, 43, 177),rgb(204, 125, 238),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182), rgb(204, 125, 238), rgb(124, 36, 182), rgb(237, 77, 77));
+  background: linear-gradient(rgb(149, 232, 161), white,rgb(166, 65, 237), rgb(89, 46, 231),rgb(89, 46, 231), rgb(147, 23, 235), white, rgb(149, 232, 161));
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -20,25 +20,25 @@
 .logo {
   width: 150px;
   border-radius: 20px;
-  box-shadow: #ffffff 0px 0px 2px 3px;
+  box-shadow: #31367e 0px 0px 7px 2px;
 }
 
 .continuebutton {
   padding: 12px 15px;
   font-size: 14px;
   font-weight: bold;
-  background:linear-gradient( #9e76ef,#c5aef3,#9f7aeb);
-  color: #000000;
+  background:linear-gradient( #c1f3cb,#c1f3cb,#c1f3cb);
+  color: #821fce;;
   border: none;
   border-radius: 8px;
   margin-top:10px;
   text-decoration: none;
   cursor: pointer;
-  box-shadow: #ffffff 0px 0px 0.2px 0.9px;
+  box-shadow: #000000 0px 0px 0.2px 0.9px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .continuebutton:hover {
   background-color: #0056b3;
-  color: white;
+  color: rgb(0, 0, 0);
 }

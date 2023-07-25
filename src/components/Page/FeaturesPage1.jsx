@@ -5,6 +5,7 @@ import style2 from "./FeaturesPage1.module.css"
 import Feature1logo from '../../img/globalconnect.png'
 import FeatureBubbles from './FeaturesBubble';
 
+
 const FeaturePage1 = () => {
   return (
     <div className={style2.featurepage}>
