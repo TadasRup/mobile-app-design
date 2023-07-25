@@ -7,7 +7,6 @@
     min-height: 100vh;
     padding: 20px;
     color: #ffffff;
-  
     box-sizing: border-box;
     text-align: center;
     background: linear-gradient( rgb(115, 43, 177),rgb(204, 125, 238),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182), rgb(204, 125, 238), rgb(124, 36, 182));
@@ -16,7 +15,6 @@
   
   .logo {
     width: 150px;
-   
     border-radius: 20px;
     box-shadow: #ffffff 0px 0px 2px 3px;
   }
@@ -32,14 +30,20 @@
     padding: 12px 15px;
     font-size: 14px;
     font-weight: bold;
-    background:linear-gradient( #8e66ea,#4b0c86,#9a60ea);
-    color: rgb(252, 250, 255);
+    background:linear-gradient( #9e76ef,#c5aef3,#9f7aeb);
+    color: #000000;
     border: none;
     border-radius: 8px;
     margin-top:10px;
     text-decoration: none;
+
     cursor: pointer;
-    box-shadow: #ffffff 0px 0px 0.2px 1px;
+    box-shadow: #ffffff 0px 0px 0.2px 0.9px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  .getstartedbutton:hover {
+    background-color: #ff0000;
+    color:  rgb(115, 43, 177);
   }
   
