@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mobile-app-design/static/css/main.68808e9b.css",
+    "main.js": "/mobile-app-design/static/js/main.374aabd0.js",
+    "static/js/787.24d674d3.chunk.js": "/mobile-app-design/static/js/787.24d674d3.chunk.js",
+    "static/media/bignames.png": "/mobile-app-design/static/media/bignames.668e92f4253bb0290ce5.png",
+    "static/media/globalconnect.png": "/mobile-app-design/static/media/globalconnect.d56413a1a576ba0e5de1.png",
+    "static/media/quality.png": "/mobile-app-design/static/media/quality.2aff8f25b68c6ce987db.png",
+    "index.html": "/mobile-app-design/index.html",
+    "main.68808e9b.css.map": "/mobile-app-design/static/css/main.68808e9b.css.map",
+    "main.374aabd0.js.map": "/mobile-app-design/static/js/main.374aabd0.js.map",
+    "787.24d674d3.chunk.js.map": "/mobile-app-design/static/js/787.24d674d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68808e9b.css",
+    "static/js/main.374aabd0.js"
+  ]
+}
