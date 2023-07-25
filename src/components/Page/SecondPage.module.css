@@ -8,7 +8,7 @@
     color: #ffffff;
     box-sizing: border-box;
     text-align: center;
-    background: linear-gradient( rgb(115, 43, 177),rgb(120, 162, 229),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182),rgb(120, 162, 229), rgb(124, 36, 182));
+    background: linear-gradient(white,  rgb(115, 43, 177),rgb(120, 162, 229),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182),rgb(120, 162, 229), rgb(124, 36, 182), white);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
