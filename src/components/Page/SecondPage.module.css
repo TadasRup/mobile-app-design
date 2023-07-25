@@ -3,7 +3,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient( rgb(115, 43, 177),rgb(120, 162, 229),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182),rgb(120, 162, 229), rgb(124, 36, 182));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .message {
@@ -12,16 +18,23 @@
   }
   
   .continuebutton {
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #000000;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background:linear-gradient( #895be5,#8254dd,#8458dd);
+    color: #f9f9f9;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    margin-top:10px;
+    text-decoration: none;
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    box-shadow: #ffffff 0px 0px 0.2px 0.9px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
   
   .continuebutton:hover {
     background-color: #eeeeef;
+    color: aqua;
   }
   

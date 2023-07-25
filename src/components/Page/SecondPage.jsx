@@ -1,11 +1,13 @@
 import React from 'react';
 import style from '../Page/SecondPage.module.css';
+import { Link } from 'react-router-dom';
 
 const SecondPage = () => {
   return (
     <div className={style.secondpage}>
       <h1 className={style.message}>Are you first time in this app?</h1>
-      <button className={style.continuebutton}>Continue</button>
+      <Link className={style.continuebutton} to="/FeaturesPage">No, already have a accont</Link>
+      <Link className={style.continuebutton} to="/CreateAccount">Yes, Im New!</Link>
     </div>
   );
 };
