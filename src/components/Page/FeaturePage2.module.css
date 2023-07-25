@@ -9,7 +9,7 @@
   color: #ffffff;
   box-sizing: border-box;
   text-align: center;
-  background: linear-gradient(white,  rgb(115, 43, 177),rgb(204, 125, 238),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182), rgb(204, 125, 238), rgb(124, 36, 182), white);
+  background: linear-gradient(rgb(237, 59, 59),  rgb(115, 43, 177),rgb(204, 125, 238),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182), rgb(204, 125, 238), rgb(124, 36, 182), rgb(237, 77, 77));
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -40,4 +40,5 @@
 
 .continuebutton:hover {
   background-color: #0056b3;
+  color: white;
 }
