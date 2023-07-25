@@ -8,6 +8,9 @@ import FeaturePage3 from './components/Page/FeaturePage3';
 import CreateAccount from './components/Page/CreateAccount';
 import FeaturesBubble from './components/Page/FeaturesBubble';
 
+
+
+
 const App = () => {
   return (
       <div>
