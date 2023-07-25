@@ -15,8 +15,8 @@ const App = () => {
         <Route path="/" element={<FirstPage />} />
         <Route path="/SecondPage" element={<SecondPage />} /> 
         <Route path="/FeaturesPage1" element={<FeaturesPage1 />} />
-        <Route path="/FeaturesPage2" element={<FeaturePage2 />} />
-        <Route path="/FeaturesPage1" element={<FeaturePage3 />} />
+        <Route path="/FeaturePage2" element={<FeaturePage2 />} />
+        <Route path="/FeaturePage3" element={<FeaturePage3 />} />
         <Route path="/CreateAccount" element={<CreateAccount />} />
       </Routes>
       </div>
