@@ -1,8 +1,9 @@
 {
-   "name": "mobile-app-design",
+  "homepage": "https://TadasRup.github.io/",
+  "name": "mobile-app-design",
    "version": "0.1.0",
-   "homepage": "https://TadasRup.github.io/mobile-app-design",
    "private": true,
+   "type": "module",
    "dependencies": {
       "@testing-library/jest-dom": "^5.17.0",
       "@testing-library/react": "^13.4.0",
