@@ -1,0 +1,110 @@
+.mainheader{
+        min-height: 5vh;
+        padding: 10px;
+        color: #ffffff;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 2fr 0.5fr;
+        background: linear-gradient(rgb(158, 134, 244), rgb(243, 238, 238));
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+.logoutbutton{
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    background:linear-gradient( #ffffff,#eff4f0,#ffffff);
+    color: #821fce;
+    border: none;
+    border-radius: 8px;
+    margin-top:10px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: #821fce 0px 0px 0.2px 0.9px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.logo{
+    width: 20%;
+    margin-right: 80%;
+    margin-top:10px ;
+    border-radius: 10px;
+}
+
+.logo2{
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: #3d05f3 0px 0px 2px 3px;
+}
+
+.exploredj{
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 103px;
+    background:linear-gradient( #bb95f0,#d5c3ed,#d0a4f1);
+    color: #9001fd;
+    border: none;
+    border-radius: 8px;
+    margin-top:10px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: #000000 0px 0px 0.2px 0.9px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.headertext{
+    color: black;
+    font-weight: 900;
+    font-family: unset;
+    font-size: 20px;
+
+}
+
+.exploredj.liked {
+    /* Styles for the button when it's in the "LIKED" state */
+    background-color: #28a745;
+  }
+
+.headertextfeed{
+    background-color: #8b57f4;
+    color: rgb(255, 255, 255);
+}
+
+.mainstyle{
+   
+    min-height: 100vh;
+    padding: 20px;
+    color: #b184f2;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(white, rgb(186, 108, 220));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .likeContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 4.4rem;
+    margin-top: 10px; 
+  }
+  
+  .likeButton {
+    background-color: #3f7fe5;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 40px 15px 40px 15px;
+  }
+  
+  .likeCount {
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .news2{
+    padding-top: 30px;
+  }
