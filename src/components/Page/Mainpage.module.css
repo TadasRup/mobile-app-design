@@ -54,6 +54,10 @@
     box-shadow: #000000 0px 0px 0.2px 0.9px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.exploredj:hover{
+    color: white;
+}
 .headertext{
     color: black;
     font-weight: 900;
