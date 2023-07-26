@@ -24,7 +24,7 @@ export default function CreateAccount() {
         <input className={style.reginput}  type="text" placeholder='Email' value={data.email} onChange= {(e) => setData({...data, email: e.target.value})} />
        
         <input className={style.reginput}  type="text" placeholder='Password' value={data.password} onChange={(e) => setData({...data, password: e.target.value})} />
-        <p>You are agree to our terms and policies</p>
+        <p className={style.policies}>You are agree to our terms and policies</p>
         <button className={style.continuebutton} type='sumbit'>REGISTER</button>
         <h4>OR</h4>
         <Link className={style.continuebutton} type='sumbit'  to="/Login">LOGIN</Link>

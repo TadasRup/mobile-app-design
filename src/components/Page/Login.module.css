@@ -5,7 +5,7 @@
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-    color: #ede5e5;
+    color: #000000;
     box-sizing: border-box;
     text-align: center;
     background: linear-gradient(rgb(149, 232, 161), white,rgb(166, 65, 237), rgb(89, 46, 231),rgb(89, 46, 231), rgb(147, 23, 235), white, rgb(149, 232, 161));
@@ -22,7 +22,10 @@
     }
 
     .errordanger{
-        color: rgb(206, 4, 4);
+        color: rgb(0, 0, 0);
+        padding: 3px;
+        margin-bottom: 10px;
+
     }
     
     .loginform {
@@ -47,7 +50,7 @@
       color: #0a0000;
       border: none;
       border-radius: 8px;
-      margin-top:20px;
+      margin-top:2px;
       text-decoration: none;
       cursor: pointer;
       box-shadow: #000000 0px 0px 0.2px 0.9px;

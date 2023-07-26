@@ -6,7 +6,7 @@
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-    color: #f9f9f9;
+    color: #000000;
     box-sizing: border-box;
     text-align: center;
     background: linear-gradient(rgb(149, 232, 161), white,rgb(166, 65, 237), rgb(89, 46, 231),rgb(89, 46, 231), rgb(147, 23, 235), white, rgb(149, 232, 161));
@@ -44,13 +44,19 @@
       color: #0a0000;
       border: none;
       border-radius: 8px;
-      margin-top:10px;
+      margin-bottom:-7px;
       text-decoration: none;
       cursor: pointer;
       box-shadow: #000000 0px 0px 0.2px 0.9px;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
+    .policies{
+        font-size: 10px;
+        color: white;
+        
+    }
+
     .continuebutton:hover {
       background-color: #0056b3;
       color: rgb(0, 0, 0);
