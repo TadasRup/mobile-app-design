@@ -17,7 +17,7 @@ const MainPage = () => {
     <header>
       <div className={style.mainheader}>
         <img src={companyLogo} alt="Logo" className={style.logo} />
-        <Link className={style.logoutbutton} to="/FirstPage">
+        <Link className={style.logoutbutton} to="/Login">
           LOG OUT
         </Link>
       </div>
