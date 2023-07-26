@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b845b8b8.css",
-    "main.js": "/static/js/main.5540ec8c.js",
-    "static/js/787.24d674d3.chunk.js": "/static/js/787.24d674d3.chunk.js",
-    "static/media/bignames.png": "/static/media/bignames.668e92f4253bb0290ce5.png",
-    "static/media/globalconnect.png": "/static/media/globalconnect.d56413a1a576ba0e5de1.png",
-    "static/media/quality.png": "/static/media/quality.2aff8f25b68c6ce987db.png",
-    "index.html": "/index.html",
-    "main.b845b8b8.css.map": "/static/css/main.b845b8b8.css.map",
-    "main.5540ec8c.js.map": "/static/js/main.5540ec8c.js.map",
-    "787.24d674d3.chunk.js.map": "/static/js/787.24d674d3.chunk.js.map"
+    "main.css": "/mobile-app-design/static/css/main.b845b8b8.css",
+    "main.js": "/mobile-app-design/static/js/main.298c2ace.js",
+    "static/js/787.24d674d3.chunk.js": "/mobile-app-design/static/js/787.24d674d3.chunk.js",
+    "static/media/bignames.png": "/mobile-app-design/static/media/bignames.668e92f4253bb0290ce5.png",
+    "static/media/globalconnect.png": "/mobile-app-design/static/media/globalconnect.d56413a1a576ba0e5de1.png",
+    "static/media/quality.png": "/mobile-app-design/static/media/quality.2aff8f25b68c6ce987db.png",
+    "index.html": "/mobile-app-design/index.html",
+    "main.b845b8b8.css.map": "/mobile-app-design/static/css/main.b845b8b8.css.map",
+    "main.298c2ace.js.map": "/mobile-app-design/static/js/main.298c2ace.js.map",
+    "787.24d674d3.chunk.js.map": "/mobile-app-design/static/js/787.24d674d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b845b8b8.css",
-    "static/js/main.5540ec8c.js"
+    "static/js/main.298c2ace.js"
   ]
 }
