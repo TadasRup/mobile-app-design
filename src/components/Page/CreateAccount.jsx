@@ -1,8 +1,15 @@
-import React from 'react';
+import {useState} from 'react';
 import style from './CreateAccount.module.css'
+import { Link } from 'react-router-dom';
 
 
-const CreateAccount = () => {
+export default function CreateAccount() {
+
+  const [data, setData] = useState({
+    name: '',
+    email: '',
+    password: '',
+  })
 
   const registerUser = (e) => {
     e.preventDefault()
@@ -12,19 +19,18 @@ const CreateAccount = () => {
         <h1>Create your account</h1>
       <form className={style.regform} onSubmit={registerUser}>
        
-        <input className={style.reginput} type="text" placeholder='Name' />
+        <input className={style.reginput} type="text" placeholder='Name' value={data.name} onChange={(e) => setData({...data, name: e.target.value})}/>
        
-        <input className={style.reginput}  type="text" placeholder='Email' />
+        <input className={style.reginput}  type="text" placeholder='Email' value={data.email} onChange= {(e) => setData({...data, email: e.target.value})} />
        
-        <input className={style.reginput}  type="text" placeholder='Password' />
+        <input className={style.reginput}  type="text" placeholder='Password' value={data.password} onChange={(e) => setData({...data, password: e.target.value})} />
+        <p>You are agree to our terms and policies</p>
         <button className={style.continuebutton} type='sumbit'>REGISTER</button>
         <h4>OR</h4>
-        <button className={style.continuebutton} type='sumbit'>LOGIN</button>
+        <Link className={style.continuebutton} type='sumbit'  to="/Login">LOGIN</Link>
       </form>
     </div>
   );
   };
   
-  
-  export default CreateAccount;
   
