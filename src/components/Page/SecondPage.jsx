@@ -6,7 +6,7 @@ const SecondPage = () => {
   return (
     <div className={style.secondpage}>
       <h1 className={style.message}>Are you first time in this app?</h1>
-      <Link className={style.continuebutton} to="/CreateAccount">No, already have a accont</Link>
+      <Link className={style.continuebutton} to="/Login">No, already have a accont</Link>
       <Link className={style.continuebutton} to="/FeaturesPage1">Yes, Im New!</Link>
     </div>
   );

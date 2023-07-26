@@ -9,6 +9,7 @@ import CreateAccount from './components/Page/CreateAccount';
 import Login from './components/Page/Login';
 import LoginValidation from './components/Page/LoginValidation'
 import FeaturesBubble from './components/Page/FeaturesBubble';
+import Mainpage from './components/Page/Mainpage'
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/FeaturePage3" element={<FeaturePage3 />} />
         <Route path="/CreateAccount" element={<CreateAccount />} />
         <Route path="/LoginValidation" element={<LoginValidation />} />
+        <Route path="/Mainpage" element={<Mainpage />} />
         <Route path="/Login" element={<Login />} />
       </Routes>
       </div>

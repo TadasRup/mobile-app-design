@@ -27,7 +27,7 @@ return(
             {errors.email && <span className={style.errordanger}> { errors.email } </span>}
             <input className={style.reginput}  type="password" placeholder='Password'onChange={handleInput}/>
             {errors.password && <span className={style.errordanger}> { errors.password } </span>}
-            <button type='submit' className={style.continuebutton}>LOG IN</button>
+            <Link type='submit' className={style.continuebutton} to="/Mainpage">LOG IN</Link>
             <h4>OR</h4>
             <Link className={style.continuebutton} type='submit' to="/CreateAccount">REGISTER</Link>
         </form>
