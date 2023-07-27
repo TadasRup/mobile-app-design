@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import style2 from "./FeaturesPage1.module.css"
-import Feature1logo from '../../img/globalconnect.png'
-import FeatureBubbles from './FeaturesBubble';
+import style2 from "../../components/css/FeaturesPage1.module.css";
+import Feature1logo from '../../img/globalconnect.png';
+import FeatureBubbles from '../Page/FeaturesBubble';
 
 
 const FeaturePage1 = () => {

@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import style4 from './FeaturePage3.module.css'
-import FeatureBubbles from './FeaturesBubble';
+import style4 from '../../components/css/FeaturePage3.module.css'
+import FeatureBubbles from '../Page/FeaturesBubble';
 import BigNames from '../../img/bignames.png'
 
 

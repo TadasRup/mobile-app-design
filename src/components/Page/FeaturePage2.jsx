@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import style from "./FeaturePage2.module.css";
-import FeatureBubbles from './FeaturesBubble';
+import style from "../../components/css/FeaturePage2.module.css";
+import FeatureBubbles from '../Page/FeaturesBubble';
 import StudioQuality from '../../img/quality.png'
 
 const FeaturePage2 = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../Page/SecondPage.module.css';
+import style from '../css/SecondPage.module.css';
 import { Link } from 'react-router-dom';
 
 const SecondPage = () => {

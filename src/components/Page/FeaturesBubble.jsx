@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import style from './FeatureBubble.module.css';
+import style from '../css/FeatureBubble.module.css';
 
 const FeaturesBubble = () => {
   const location = useLocation();

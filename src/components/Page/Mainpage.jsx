@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import style from './Mainpage.module.css';
+import style from '../css/Mainpage.module.css';
 import companyLogo from '../../img/prodtech.png';
 import Dj1 from '../../img/ellenallien.jpg';
 import tomorrow from '../../img/tland.webp';
@@ -8,11 +8,15 @@ import Dj2 from '../../img/dj2.jpg';
 import Features from '../../img/dj1.jpg';
 
 const MainPage = () => {
-  const [likeCount, setLikeCount] = useState(5956);
+  const [likeCount, setLikeCount] = useState(() => JSON.parse(localStorage.getItem('logo')) ||998);
+
+ 
 
   const handleLikeClick = () => {
     setLikeCount((prevCount) => prevCount + 1);
   };
+
+
 
   return (
     <header>

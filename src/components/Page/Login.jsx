@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import style from './Login.module.css'
-import Validation from './LoginValidation';
+import style from '../css/Login.module.css'
+import Validation from '../../components/validations/LoginValidation';
 import { RiEyeFill, RiEyeCloseFill } from 'react-icons/ri';
 
 export default function Login() {
@@ -42,14 +42,14 @@ return (
                 {showPassword ? <RiEyeCloseFill /> : <RiEyeFill />}
              </span>
         </div>
-        {errors.password && <span className={style.errordanger}> { errors.password } </span>}
-        <Link type="submit" className={style.continuebutton} to="/Mainpage">
-          LOG IN
-        </Link>
-        <h4>OR</h4>
-        <Link className={style.continuebutton} type="submit" to="/CreateAccount">
-          REGISTER
-        </Link>
+            {errors.password && <span className={style.errordanger}> { errors.password } </span>}
+             <Link type="submit" className={style.continuebutton} to="/Mainpage">
+                LOG IN
+             </Link>
+                <h4>OR</h4>
+             <Link className={style.continuebutton} type="submit" to="/CreateAccount">
+                REGISTER
+             </Link>
       </form>
     </div>
   );

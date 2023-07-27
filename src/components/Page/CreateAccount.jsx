@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import style from './CreateAccount.module.css'
+import style from '../css/CreateAccount.module.css'
 import { Link } from 'react-router-dom';
-import Validation from './RegisterValidation';
+import Validation from '../../components/validations/RegisterValidation';
 import axios from 'axios';
 import { RiEyeFill, RiEyeCloseFill } from 'react-icons/ri';
 

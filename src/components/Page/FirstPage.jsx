@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './FirstPage.module.css'
+import style from '../css/FirstPage.module.css'
 import companyLogo from '../../img/prodtech.png'
 import { Link } from 'react-router-dom';
 

@@ -1,4 +1,4 @@
-import style from './PoliciesPage.module.css'
+import style from '../css/PoliciesPage.module.css'
 import { Link } from 'react-router-dom';
 
 const PoliciesPage = () => {
