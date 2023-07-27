@@ -8,6 +8,7 @@ import StudioQuality from '../../img/quality.png'
 const FeaturePage2 = () => {
   return (
     <div className={style.featurepage}>
+      <Link class={style.skip} to="/CreateAccount">Skip</Link>
       <img src={StudioQuality} alt="Logo" className={style.logo} />
       <FeatureBubbles />
       <h1 className={style.content}>PERFECT SOUND</h1>

@@ -9,6 +9,7 @@ import BigNames from '../../img/bignames.png'
 const FeaturePage3 = () => {
   return (
     <div className={style4.featurepage}>
+      <Link class={style4.skip} to="/CreateAccount">Skip</Link>
       <img src={BigNames} alt="Logo" className={style4.logo} />
       <FeatureBubbles />
       <h1 className={style4.content}>MEET RESIDENTS</h1>

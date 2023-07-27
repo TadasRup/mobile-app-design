@@ -9,6 +9,7 @@ import FeatureBubbles from '../Page/FeaturesBubble';
 const FeaturePage1 = () => {
   return (
     <div className={style2.featurepage}>
+      <Link class={style2.skip} to="/CreateAccount">Skip</Link>
       <img src={Feature1logo} alt="Logo" className={style2.logo} />
       <FeatureBubbles />
       <h1 className={style2.content}>WORLDWIDE APP</h1>

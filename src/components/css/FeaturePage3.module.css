@@ -18,6 +18,15 @@
     margin-bottom: 20px;
   }
 
+  .skip{
+    text-decoration: none;
+    margin-bottom: 25px;
+    margin-left: 245px;
+    color: #0056b3;
+    font-weight: 900;
+    font-size: 13px;
+  }
+
   .logo {
     width: 150px;
     border-radius: 20px;
