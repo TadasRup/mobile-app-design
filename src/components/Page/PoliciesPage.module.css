@@ -1,0 +1,48 @@
+
+.firstpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(rgb(238, 28, 28), white,  rgb(115, 43, 177),rgb(204, 125, 238),rgb(124, 36, 182) ,rgb(124, 36, 182),rgb(113, 58, 176),  rgb(115, 43, 177), rgb(124, 36, 182), rgb(124, 36, 182), rgb(204, 125, 238), rgb(124, 36, 182), white, rgb(236, 56, 56));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+
+  .heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    margin-top: 35px;
+    color: rgb(62, 2, 2);
+  }
+  
+  .getstartedbutton {
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background:linear-gradient( #895be5,#8254dd,#8458dd);
+    color: #f9f9f9;
+    border: none;
+    border-radius: 8px;
+    margin-top:10px;
+    text-decoration: none;
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    box-shadow: rgb(188, 207, 236) 0px 0px 0.2px 0.9px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  .getstartedbutton:hover {
+    background-color: #ff0000;
+    color:  rgb(252, 252, 252);
+  }
+
+
+  
+  
