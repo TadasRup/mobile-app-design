@@ -76,15 +76,11 @@
       cursor: pointer;
     }
 
-    .cubeSymbol {
+    .cubeSymbol,
+    .checkmarkSymbol {
       font-size: 24px;
       color: white;
       cursor: pointer;
-    }
-    
-    .cubeChecked::before {
-      content: '✔';
-   
     }
 
 .policiestxt{

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import style from '../css/Mainpage.module.css';
+import style from '../../components/css/Mainpage.module.css';
 import companyLogo from '../../img/prodtech.png';
 import Dj1 from '../../img/ellenallien.jpg';
 import tomorrow from '../../img/tland.webp';

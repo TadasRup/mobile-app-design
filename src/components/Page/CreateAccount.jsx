@@ -60,14 +60,26 @@ const handleTermsAgree = () => {
              </span>
         </div>
         <p className={style.policies}>
+       
+        {termsAgreed ? (
+          <span
+            role="img"
+            aria-label="checkmark"
+            className={`${style.checkmarkSymbol}`}
+            onClick={handleTermsAgree}
+          >
+            ✔
+          </span>
+        ) : (
           <span
             role="img"
             aria-label="cube"
-            className={`${style.cubeSymbol} ${termsAgreed ? style.cubeChecked : ''}`}
+            className={`${style.cubeSymbol}`}
             onClick={handleTermsAgree}
           >
             □
-          </span>{' '}
+          </span>
+        )}
           You agree to our terms and <Link className={style.policiestxt} to="/PoliciesPage">policies</Link>
         </p>
         <Link className={style.continuebutton} type="submit" to="/Login">
