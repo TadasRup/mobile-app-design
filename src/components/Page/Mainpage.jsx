@@ -4,10 +4,11 @@ import style from './Mainpage.module.css';
 import companyLogo from '../../img/prodtech.png';
 import Dj1 from '../../img/ellenallien.jpg';
 import tomorrow from '../../img/tland.webp';
-import Dj3 from '../../img/prodtech.png';
+import Dj2 from '../../img/dj2.jpg';
+import Features from '../../img/dj1.jpg';
 
 const MainPage = () => {
-  const [likeCount, setLikeCount] = useState(0);
+  const [likeCount, setLikeCount] = useState(5956);
 
   const handleLikeClick = () => {
     setLikeCount((prevCount) => prevCount + 1);
@@ -42,7 +43,7 @@ const MainPage = () => {
         <p className={style.headertextfeed}>EVENTS</p>
         <img src={tomorrow} alt="Logo" className={style.logo2} />
           <p className={style.headertext}>
-            TOMORROWLAND 2023 had visited people vistited!
+            TOMORROWLAND 2023 had visited people record!
           </p>
           <div className={style.likeContainer}>
             <button className={style.likeButton} onClick={handleLikeClick}>
@@ -52,7 +53,34 @@ const MainPage = () => {
           </div>
           <button className={style.exploredj}>READ MORE</button>
           </div>
+
+          <div className={style.news2}>
+        <p className={style.headertextfeed}>ALBUMS</p>
+        <img src={Dj2} alt="Logo" className={style.logo2} />
+          <p className={style.headertext}>
+            TRYM realeased new album. Listen now!
+          </p>
+          <div className={style.likeContainer}>
+            <button className={style.likeButton} onClick={handleLikeClick}>
+              vote
+            </button>
+            <p className={style.likeCount}>{likeCount} Votes</p>
+          </div>
+          <button className={style.exploredj}>READ MORE</button>
+          </div>
+
+          <div className={style.news2}>
+        <p className={style.headertextfeed}>FEATURES</p>
+        <img src={Features} alt="Logo" className={style.logo2} />
+          <p className={style.headertext2}>
+            Are you ready to show your music and talent?
+          </p>
+         
+          <button className={style.exploredj}>APPLY NOW</button>
+          </div>
       </main>
+
+      
     </header>
   );
 };
