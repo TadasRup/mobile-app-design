@@ -1,4 +1,4 @@
-// FeaturePage2.jsx
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import style from "./FeaturePage2.module.css";

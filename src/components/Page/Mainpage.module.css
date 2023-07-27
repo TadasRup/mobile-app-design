@@ -1,58 +1,58 @@
 .mainheader{
-        min-height: 5vh;
-        padding: 10px;
-        color: #ffffff;
-        display: grid;
-        align-items: center;
-        grid-template-columns: 2fr 0.5fr;
-        background: linear-gradient(rgb(158, 134, 244), rgb(243, 238, 238));
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      }
+  min-height: 5vh;
+  padding: 10px;
+  color: #ffffff;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 0.5fr;
+  background: linear-gradient(rgb(158, 134, 244), rgb(243, 238, 238));
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
 
 .logoutbutton{
-    padding: 8px;
-    font-size: 10px;
-    font-weight: bold;
-    background:linear-gradient( #ffffff,#eff4f0,#ffffff);
-    color: #821fce;
-    border: none;
-    border-radius: 8px;
-    margin-top:10px;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: #821fce 0px 0px 0.2px 0.9px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  background:linear-gradient( #ffffff,#eff4f0,#ffffff);
+  color: #821fce;
+  border: none;
+  border-radius: 8px;
+  margin-top:10px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: #821fce 0px 0px 0.2px 0.9px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .logo{
-    width: 20%;
-    margin-right: 80%;
-    margin-top:10px ;
-    border-radius: 10px;
+  width: 20%;
+  margin-right: 80%;
+  margin-top:10px ;
+  border-radius: 10px;
 }
 
 .logo2{
-    width: 150px;
-    border-radius: 20px;
-    box-shadow: #3d05f3 0px 0px 2px 3px;
+  width: 150px;
+  border-radius: 20px;
+  box-shadow: #3d05f3 0px 0px 2px 3px;
 }
 
 .exploredj{
-    padding: 8px;
-    font-size: 10px;
-    font-weight: bold;
-    display: flex;
-    margin-left: 103px;
-    background:linear-gradient( #bb95f0,#d5c3ed,#d0a4f1);
-    color: #9001fd;
-    border: none;
-    border-radius: 8px;
-    margin-top:10px;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: #000000 0px 0px 0.2px 0.9px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  margin-left: 103px;
+  background:linear-gradient( #bb95f0,#d5c3ed,#d0a4f1);
+  color: #9001fd;
+  border: none;
+  border-radius: 8px;
+  margin-top:10px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: #000000 0px 0px 0.2px 0.9px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .exploredj:hover{
