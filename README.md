@@ -1,8 +1,63 @@
-# Getting Started with Create React App
+![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
+![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
+![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
+[![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
+
+# PRODUCERS TECHNOLOGY
+# (PRODTECH)
+
+_M0BILE APP DESIGN PR0JECT_
+
+<br>
+
+## 🌟 About
+
+This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+
+Site published at: https://tadasrup.github.io/mobile-app-design/
+
+Project design: https://github.com/TadasRup/mobile-app-design/tree/master/src/img/PagesDesignPics
+
+## 🎯 Project features/goals
+
+- Github pages
+- README / [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- git branch
+- mobile app version desing
+- active register form
+- active login form
+- form validations
+- different pages and navigation between them
+- localStorage
+- database usage
+- react icons
+
+## 🎅 Authors
+
+Giedre: [Github](https://github.com/TadasRup)
+
+## ⚠️ License
+
+Distributed under the MIT License. See LICENSE.txt for more information.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+1. Clone the repo
+    ```sh
+    git clone https://github.com/TadasRup/mobile-app-design.git
+    ```
+2. Install NPM packages
+    ```sh
+    npm i
+    ```
+    or
+    ```sh
+    npm install
 
 In the project directory, you can run:
 
