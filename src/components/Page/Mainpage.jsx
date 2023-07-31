@@ -6,25 +6,68 @@ import Dj1 from '../../img/ellenallien.jpg';
 import tomorrow from '../../img/tland.webp';
 import Dj2 from '../../img/dj2.jpg';
 import Features from '../../img/dj1.jpg';
+import { RxHamburgerMenu } from 'react-icons/rx';
 
 const MainPage = () => {
   const [likeCount, setLikeCount] = useState(() => JSON.parse(localStorage.getItem('logo')) ||998);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
  
-
   const handleLikeClick = () => {
     setLikeCount((prevCount) => prevCount + 1);
+  };
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen); // Step 2: Toggle the menu state
   };
 
 
 
   return (
     <header>
-      <div className={style.mainheader}>
+       <div className={style.mainheader}>
         <img src={companyLogo} alt="Logo" className={style.logo} />
-        <Link className={style.logoutbutton} to="/Login">
-          LOG OUT
-        </Link>
+        {/* Step 3: Render hamburger icon and menu based on the state */}
+        {isMenuOpen ? (
+          <div className={style.burgermenu}>
+            <Link type="submit" className={style.burgertext} to="/Mainpage">
+                Shoping carts
+             </Link>
+             <Link type="submit" className={style.burgertext} to="/Mainpage">
+                Product catalog
+             </Link>
+             <Link type="submit" className={style.burgertext} to="/Mainpage">
+                Shops
+             </Link>
+             <h1>--------------</h1>
+             <Link type="submit" className={style.burgertext} to="/Mainpage">
+                New shopping cart
+             </Link>
+             <Link type="submit" className={style.burgertext}  to="/Mainpage">
+                New product
+             </Link>
+             <Link type="submit" className={style.burgertext} to="/Mainpage">
+                New shop
+             </Link>
+             <h1>--------------</h1>
+             <Link type="submit" className={style.burgertext} to="/Mainpage">
+                Account
+             </Link>
+             <Link type="submit" className={style.burgertext} to="/Mainpage">
+                Settings
+             </Link>
+             <Link type="submit"className={style.burgertext}  to="/Mainpage">
+                Sign out
+             </Link>
+          </div>
+        ) : (
+          <RxHamburgerMenu
+            className={style.burger}
+            size="2.9rem"
+            color="black"
+            onClick={handleMenuToggle}
+          />
+        )}
       </div>
       <main className={style.mainstyle}>
         <div>
