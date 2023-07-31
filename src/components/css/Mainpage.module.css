@@ -141,6 +141,7 @@
     width: 60px;
     height: 30px;
     cursor: pointer;
+
   }
 
   .burgermenu{
@@ -149,10 +150,10 @@
     align-items: center;
     color: black;
     position: fixed;
-   
     top: 0;
     left: 0;
-    background-color: #fff;
+    width: 100%;
+    background-color: #b2aaf5;
     text-decoration: none;
    
   }

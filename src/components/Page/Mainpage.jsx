@@ -7,6 +7,7 @@ import tomorrow from '../../img/tland.webp';
 import Dj2 from '../../img/dj2.jpg';
 import Features from '../../img/dj1.jpg';
 import { RxHamburgerMenu } from 'react-icons/rx';
+import { IoExitOutline } from 'react-icons/io';
 
 const MainPage = () => {
   const [likeCount, setLikeCount] = useState(() => JSON.parse(localStorage.getItem('logo')) ||998);
@@ -27,7 +28,6 @@ const MainPage = () => {
     <header>
        <div className={style.mainheader}>
         <img src={companyLogo} alt="Logo" className={style.logo} />
-        {/* Step 3: Render hamburger icon and menu based on the state */}
         {isMenuOpen ? (
           <div className={style.burgermenu}>
             <Link type="submit" className={style.burgertext} to="/Mainpage">
