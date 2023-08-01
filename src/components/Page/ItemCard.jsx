@@ -1,6 +1,6 @@
 import React from 'react';
 import style from '../css/ProductCatalog.module.css'
-import { useCart } from "react-use-ract"
+import { useCart } from "react-use-cart"
 
 const ItemCard = (props) => {
 const { addItem} = useCart();
