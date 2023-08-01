@@ -1,0 +1,30 @@
+.itemdiv{
+background-color: red;
+display: flex;
+text-align: center;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+  width: 70%;
+  margin-left: 50px;
+  padding: 20px;
+  color: #000000;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: #9b2e2e 0px 0px 7px 1px;
+
+}
+
+.btnprimary{
+    padding: 0.2rem 0.5rem;
+    background-color: #36ff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+
