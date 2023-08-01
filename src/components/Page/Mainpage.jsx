@@ -30,17 +30,17 @@ const MainPage = () => {
         <img src={companyLogo} alt="Logo" className={style.logo} />
         {isMenuOpen ? (
           <div className={style.burgermenu}>
-            <Link type="submit" className={style.burgertext} to="/Mainpage">
+            <Link type="submit" className={style.burgertext} to="/ShopingCarts">
                 Shoping carts
              </Link>
-             <Link type="submit" className={style.burgertext} to="/Mainpage">
+             <Link type="submit" className={style.burgertext} to="/ProductCatalog">
                 Product catalog
              </Link>
-             <Link type="submit" className={style.burgertext} to="/Mainpage">
+             <Link type="submit" className={style.burgertext} to="/Shops">
                 Shops
              </Link>
              <h1>--------------</h1>
-             <Link type="submit" className={style.burgertext} to="/Mainpage">
+             <Link type="submit" className={style.burgertext} to="/NewShoppingCarts">
                 New shopping cart
              </Link>
              <Link type="submit" className={style.burgertext}  to="/Mainpage">
