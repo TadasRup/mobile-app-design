@@ -12,9 +12,7 @@ import FeaturesBubble from './components/Page/FeaturesBubble';
 import Mainpage from './components/Page/Mainpage'
 import PoliciesPage from './components/Page/PoliciesPage'
 import ProductCatalog from './components/Page/ProductCatalog';
-import ItemCard from './components/Page/ItemCard';
-import Cart from './components/Page/Cart';
-import { CartProvider } from "react-use-cart"
+
 
 
 
@@ -32,10 +30,8 @@ const App = () => {
         <Route path="/PoliciesPage" element={<PoliciesPage />} />
         <Route path="/Mainpage" element={<Mainpage />} />
         <Route path="/Login" element={<Login />} />
-       
         <Route path="/ProductCatalog" element={<ProductCatalog />} />
-        <Route path="/Cart" element={<Cart/>} />
-        
+        <Route exact path="/product-catalog" component={ProductCatalog} />
       </Routes>
       </div>
   );

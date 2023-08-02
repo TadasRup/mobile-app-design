@@ -1,32 +1,32 @@
-import React from 'react';
-import ItemCard from './ItemCard';
-import style from '../css/ProductCatalog.module.css'
-import data from './data'
-import Cart from './Cart';
+import React, { useState } from 'react';
+import Catalog from './Catalog';
+import ShoppingCart from './ShoppingCart';
+import data from '../Page/data';
 
 const ProductCatalog = () => {
 
-    return (
-        <div>
-            <h1 className={style.itemdiv}>All items</h1>
-            <section>
-                <div class>
-                    {data.productData.map((item, index)=>{
-                        return(
-                            <ItemCard 
-                            img={item.img} 
-                            title={item.title} 
-                            desc={item.desc} 
-                            price={item.price} 
-                            item={item} 
-                            key={index}/>
-                        )
-                    })}
-                <Cart />
-                </div>
-            </section>
-        </div>
-    )
-}
+const { productItems } = data;
+
+const [cartItems, setCartItems] = useState([]);
+
+const addToCart = (item) => {
+    setCartItems((prevCartItems) => [...prevCartItems, item]);
+};
+
+const removeFromCart = (item) => {
+    setCartItems((prevCartItems) => prevCartItems.filter((cartItem) => cartItem.id !== item.id));
+};
+
+  return (
+    <div>
+        <h1>Product Catalog</h1>
+        <div className="product-catalog-container">
+        <Catalog items={productItems} onAddToCart={addToCart} />
+        <ShoppingCart cartItems={cartItems} onRemoveFromCart={removeFromCart} />
+      </div>
+    </div>
+  );
+};
+
 
 export default ProductCatalog;
