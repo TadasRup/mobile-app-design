@@ -1,11 +1,12 @@
 import React from 'react';
+import style from '../css/ProductCatalog.module.css'
 
 const CatalogItem = ({ item, onAddToCart }) => {
   return (
-    <div>
+    <div className={style.item}>
       <h3>{item.name}</h3>
       <p>Price: ${item.price}</p>
-      <button onClick={() => onAddToCart(item)}>Add to Cart</button>
+      <button className={style.btnprimary} onClick={() => onAddToCart(item)}>Add to Cart</button>
     </div>
   );
 };

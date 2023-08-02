@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Catalog from './Catalog';
 import ShoppingCart from './ShoppingCart';
 import data from '../Page/data';
+import style from '../css/ProductCatalog.module.css'
 
 const ProductCatalog = () => {
 
@@ -19,8 +20,8 @@ const removeFromCart = (item) => {
 
   return (
     <div>
-        <h1>Product Catalog</h1>
-        <div className="product-catalog-container">
+        <h1 className={style.item}>PRODTECH ITEMS</h1>
+        <div className={style}>
         <Catalog items={productItems} onAddToCart={addToCart} />
         <ShoppingCart cartItems={cartItems} onRemoveFromCart={removeFromCart} />
       </div>

@@ -15,7 +15,6 @@ import ProductCatalog from './components/Page/ProductCatalog';
 
 
 
-
 const App = () => {
   return (
       <div>
